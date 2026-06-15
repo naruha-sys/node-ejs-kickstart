@@ -1,7 +1,14 @@
 <%- include('../partials/header') %>
-    <h1><%=title%></h1>   
-    <p><img src="images/mypicture.jpg"></p>
-    <p>Hello! I'm Uran Hayashida.</p>
-    <p>I'm a computer science student at Seattle Colleges.</p>
-    <p>I used to work as a full-stack software engineer, and I'm looking for a job to apply for OPT programs (like an internship for F-1 visa students).</p>
+    <h1><%=title%></h1> 
+<div class="row align-items-center">
+    <div class="col-md-4 text-center text-md-start">
+        <img src="images/mypicture.jpg" class="img-fluid rounded me-md-4 mb-3 mb-md-0" style="max-width: 300px;">
+    </div>
+
+    <div class="col-md-8">
+        <p class="mb-2">Hello! I'm Uran Hayashida.</p>
+        <p class="mb-2">I'm a computer science student at Seattle Colleges.</p>
+        <p class="mb-0">I used to work as a full-stack software engineer, and I'm looking for a job to apply for OPT programs (like an internship for F-1 visa students).</p>
+    </div>
+</div>
 <%- include('../partials/footer') %>
