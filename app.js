@@ -32,21 +32,21 @@ app.use(express.static(__dirname + '/public'));
 
 //index/home URL
 app.get('/',(req,res)=>{
-    let title = "Home Page";
+    let title = "Uran Hayashida's Home Page";
     res.render('pages/index',{'title': title});
 });
 
 
 //about URL
 app.get('/about',(req,res)=>{
-    let title = "About Page";
+    let title = "Uran Hayashida's About Page";
     res.render('pages/about',{'title': title});
 });
 
 
 //contact URL
 app.get('/contact',(req,res)=>{
-    let title = "Contact Us";
+    let title = "Uran Hayashida's Contact Us";
     res.render('pages/contact',{'title': title});
 });
 
@@ -56,7 +56,7 @@ app.get('/contact',(req,res)=>{
 // ==========================================
 app.get('/users', (req, res) => {
     res.render('users/index', {
-        title: 'Users',
+        title: "Uran Hayashida's Users",
         users: userData // Passes the 100-user array to the template
     });
 });
